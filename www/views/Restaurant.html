@@ -1,0 +1,24 @@
+<div class="container-fluid main-content">
+
+
+    <div class="row mid-content-area1">
+        <div>
+            <button type="button" class="btn btn-primary" ng-click="addRestaurant()">Add Restaurant</button>
+        </div>
+        <div class="col-xs-12 add-cont">
+            <ul class="media-list">
+                <li class="media" ng-repeat="Restaurant in RestaurantList">
+                    <div class="media-left img-box">
+                        <a > <img class="media-object" src="" alt="..."> </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">{{Restaurant.name}}</h4>
+                        <div>Location: {{Restaurant.location}},</div>
+                        <div> city: {{Restaurant.city}}</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>

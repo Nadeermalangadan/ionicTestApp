@@ -1,0 +1,23 @@
+<div class="container-fluid main-content">
+
+
+    <div class="row mid-content-area1">
+        <div>
+            <button type="button" class="btn btn-primary" ng-click="addPerson()">Add person</button>
+        </div>
+        <div class="col-xs-12 add-cont">
+            <ul class="media-list">
+                <li class="media" ng-repeat="Person in PersonList">
+                    <div class="media-left img-box">
+                        <a > <img class="media-object" src="" alt="..."> </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">{{Person.name}}</h4>
+                        age:{{Person.age}}, city:{{Person.city}}, gender:{{Person.gender}}, email:{{Person.email}}, 
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,25 @@
+<div class="container-fluid main-content">
+
+    <div class="row mid-content-area1">
+        <div class="col-xs-12 add-cont">
+            <form>
+                <div class="form-group">
+                    <label for="Restaurent">Restaurant name</label>
+                    <input type="text" class="form-control" id="Restaurent" placeholder="Restaurant name" ng-model="Restaurant.name">
+                </div>
+                <div class="form-group">
+                    <label for="Location">Location</label>
+                    <input type="text" class="form-control" id="Location" placeholder="Location" ng-model="Restaurant.location">
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" class="form-control" id="city" placeholder="City" ng-model="Restaurant.city">
+                </div>
+                <button type="submit" class="btn btn-primary" ng-click="addRestaurant()">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+
+</div>
